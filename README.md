@@ -36,11 +36,11 @@ If it is not required to initialize the project with nodemon, it can be done as 
 npm run start
 ```
 
-## Documentation
+## Documentation 📘
 
 At the root of the project there is a folder with the name of **doc** in which there is a collection of [Postman](https://www.postman.com/downloads/) It contains the endpoints with their respective examples.
 
-## Dependencies
+## Dependencies 🛠
 
 | Package   | Info                                    |
 | --------- | --------------------------------------- |
@@ -49,20 +49,20 @@ At the root of the project there is a folder with the name of **doc** in which t
 | nodemon   | https://www.npmjs.com/package/nodemon   |
 
 
-## License
+## License ☑
 
 The project uses a license of type [ISC](https://opensource.org/licenses/ISC)
 
-## Author
+## Author 🧑
 
 [Alberto Ochoa](https://www.linkedin.com/in/alberto-ochoa-de-la-torre-340410171/)
 
-## Additional Comments
+## Additional Comments 🚩
 I don't consider myself a REST API developer.
 But I have plenty of experience working with Node, HTTP, and REST protocols. I used to be a Fullstack developer long time ago.
-## Technical decisions
+## Technical decisions 🚧
 I decided not to leave a limit on the Fibonacci function because it must be readable to perform queries with large numbers.
 
-## Future improvements
+## Future improvements 🚀
 Alternative 1:
 Using the golden ratio phi ^ n / sqrt(5) where phi = (1+ sqrt(5)) / 2 we might get better performance, but values might not be accurate after n > 77 I Reference [Here](https://stackoverflow.com/questions/7944239/generating-fibonacci-sequence/42952842#42952842)
