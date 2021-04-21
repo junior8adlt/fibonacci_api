@@ -1,6 +1,6 @@
 # Fibonacci Api
 
-This project was carried out in order to create an **FibonacciApi ** for the ControlHub Software Engineering Candidate Quiz.
+This project was carried out in order to create an **FibonacciApi** for the ControlHub Software Engineering Candidate Quiz.
 
 ## Prerequisites
 
@@ -60,5 +60,9 @@ The project uses a license of type [ISC](https://opensource.org/licenses/ISC)
 ## Additional Comments
 I don't consider myself a REST API developer.
 But I have plenty of experience working with Node, HTTP, and REST protocols. I used to be a Fullstack developer long time ago.
-**Technical decisions**
+## Technical decisions
 I decided not to leave a limit on the Fibonacci function because it must be readable to perform queries with large numbers.
+
+## Future improvements
+Alternative 1:
+Using the golden ratio phi ^ n / sqrt(5) where phi = (1+ sqrt(5)) / 2 we might get better performance, but values might not be accurate after n > 77 I Reference [Here](https://stackoverflow.com/questions/7944239/generating-fibonacci-sequence/42952842#42952842)
